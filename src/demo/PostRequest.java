@@ -31,10 +31,10 @@ public class PostRequest {
                         "    \"language\" : \"French-IN\"\n" +
                         "}").
 
-                when().
+        when().
                 post("maps/api/place/add/json").
-                then().
 
+        then().
                 assertThat().statusCode(200).and().contentType(ContentType.JSON).
                 body("status", equalTo("OK"));
 

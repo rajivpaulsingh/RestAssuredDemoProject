@@ -2,17 +2,22 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="All Test Suite">
     <test verbose="2" preserve-order="true" name="/Users/singh2_rajiv/Automation/RestAssured/RestAssuredDemoProject">
-        <classes>
-            <class name="demo.GetRequest">
-                <methods>
-                    <include name="getData"/>
-                </methods>
-            </class>
-            <class name="demo.PostRequest">
-                <methods>
-                    <include name="postData"/>
-                </methods>
-            </class>
-        </classes>
+        \<classes>
+        <class name="demo.AddAndDeleteData">
+            <methods>
+                <include name="AddAndDeletePlace"/>
+            </methods>
+        </class>
+        <class name="demo.GetRequest">
+            <methods>
+                <include name="getData"/>
+            </methods>
+        </class>
+        <class name="demo.PostRequest">
+            <methods>
+                <include name="postData"/>
+            </methods>
+        </class>
+    </classes>
     </test>
 </suite>
