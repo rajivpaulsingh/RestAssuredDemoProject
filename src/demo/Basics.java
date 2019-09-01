@@ -48,6 +48,7 @@ public class Basics {
         when().
                 get("maps/api/place/nearbysearch/json").
                 then().assertThat().statusCode(200).and().contentType(ContentType.JSON).and().
-                body("results[0].name", equalTo("Cruise Bar"));
+                body("results[0].name", equalTo("Cruise Bar")).and().
+                body("results[0].place_id", equalTo("ChIJi6C1MxquEmsR9-c-3O48ykI"));
     }
 }
