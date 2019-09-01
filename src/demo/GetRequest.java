@@ -10,7 +10,7 @@ import static org.hamcrest.Matchers.equalTo;
 public class GetRequest {
 
     @Test
-    public void Test1() {
+    public void getData() {
 
         /**
          *
