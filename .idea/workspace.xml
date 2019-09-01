@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7ef043fd-27db-4709-8c79-156bc45d6411" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RestAssuredDemoProject.iml" beforeDir="false" afterPath="$PROJECT_DIR$/RestAssuredDemoProject.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/demo/Basics.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/demo/Basics.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -16,8 +18,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/demo/Basics.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="406">
-              <caret line="51" column="84" selection-start-line="51" selection-start-column="84" selection-end-line="51" selection-end-column="84" />
+            <state relative-caret-position="361">
+              <caret line="51" column="50" selection-start-line="51" selection-start-column="50" selection-end-line="51" selection-end-column="50" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -64,6 +66,17 @@
               <item name="RestAssuredDemoProject" type="b2602c69:ProjectViewProjectNode" />
               <item name="RestAssuredDemoProject" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="RestAssuredDemoProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="RestAssuredDemoProject" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="RestAssuredDemoProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="RestAssuredDemoProject" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="demo" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -72,7 +85,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1567376452443" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1567376733068" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -90,7 +103,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="TestNG.Basics.Test1">
     <configuration name="Basics" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="demo.Basics" />
       <module name="RestAssuredDemoProject" />
@@ -104,8 +117,27 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Basics.Test1" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="RestAssuredDemoProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="demo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="demo" />
+      <option name="MAIN_CLASS_NAME" value="demo.Basics" />
+      <option name="METHOD_NAME" value="Test1" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.Basics.Test1" />
         <item itemvalue="Application.Basics" />
       </list>
     </recent_temporary>
@@ -122,6 +154,17 @@
       <updated>1567297323481</updated>
     </task>
     <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="Basics_Test1 - 2019.09.01 at 15h 24m 12s.xml">
+      <configuration name="Basics.Test1" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="Basics_Test1 - 2019.09.01 at 15h 24m 53s.xml">
+      <configuration name="Basics.Test1" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="Basics_Test1 - 2019.09.01 at 15h 25m 24s.xml">
+      <configuration name="Basics.Test1" configurationId="TestNG" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="388" y="23" width="1291" height="947" extended-state="0" />
@@ -141,7 +184,7 @@
       <window_info anchor="bottom" id="Messages" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32982457" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.35438597" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -159,8 +202,8 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/demo/Basics.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="406">
-          <caret line="51" column="84" selection-start-line="51" selection-start-column="84" selection-end-line="51" selection-end-column="84" />
+        <state relative-caret-position="361">
+          <caret line="51" column="50" selection-start-line="51" selection-start-column="50" selection-end-line="51" selection-end-column="50" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
