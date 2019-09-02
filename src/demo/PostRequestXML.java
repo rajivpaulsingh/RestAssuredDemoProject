@@ -1,5 +1,6 @@
 package demo;
 
+import files.ReusableMethods;
 import io.restassured.RestAssured;
 import io.restassured.http.ContentType;
 import io.restassured.path.xml.XmlPath;
@@ -33,10 +34,8 @@ public class PostRequestXML {
                 assertThat().statusCode(200).and().contentType(ContentType.XML).
         extract().response();
 
-        String response = res.asString();
-        System.out.println(response);
-        XmlPath x = new XmlPath(response);
-        System.out.println(x.get("response.place_id"));
+        XmlPath x = ReusableMethods.RawToXML(res);
+        x.get("response.place_id").equals("f2d1136c79d6dccecd1a85663dccf6bb");
     }
 
     public static String GenerateStringFromResource(String path) throws IOException {
