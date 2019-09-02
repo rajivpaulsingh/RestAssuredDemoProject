@@ -2,8 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7ef043fd-27db-4709-8c79-156bc45d6411" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Files/env.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Files/PayLoad.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Files/Resources.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/RestAssuredDemoProject/Files/env.properties" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/RestAssuredDemoProject/Files/env.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/RestAssuredDemoProject/demo/AddAndDeleteData.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/RestAssuredDemoProject/demo/AddAndDeleteData.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Files/env.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/Files/env.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/demo/AddAndDeleteData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/demo/AddAndDeleteData.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -51,8 +55,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/demo/AddAndDeleteData.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="149">
-              <caret line="23" column="116" selection-start-line="23" selection-start-column="116" selection-end-line="23" selection-end-column="116" />
+            <state relative-caret-position="117">
+              <caret line="33" column="8" selection-start-line="33" selection-start-column="8" selection-end-line="33" selection-end-column="8" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -61,10 +65,28 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Files/PayLoad.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="300">
+              <caret line="20" column="17" selection-start-line="20" selection-start-column="17" selection-end-line="20" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Files/Resources.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="4" column="18" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Files/env.properties">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="28" lean-forward="true" selection-start-column="28" selection-end-column="28" />
+            <state relative-caret-position="15">
+              <caret line="1" column="16" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="16" />
             </state>
           </provider>
         </entry>
@@ -90,6 +112,8 @@
         <option value="$PROJECT_DIR$/src/demo/PostRequest.java" />
         <option value="$PROJECT_DIR$/testng.xml" />
         <option value="$PROJECT_DIR$/src/Files/env.properties" />
+        <option value="$PROJECT_DIR$/src/Files/Resources.java" />
+        <option value="$PROJECT_DIR$/src/Files/PayLoad.java" />
         <option value="$PROJECT_DIR$/src/demo/AddAndDeleteData.java" />
       </list>
     </option>
@@ -139,7 +163,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1567448028770" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1567450714142" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -157,7 +181,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.AddAndDeleteData (2)">
+  <component name="RunManager" selected="TestNG.AddAndDeleteData.AddAndDeletePlace">
     <configuration name="AddAndDeleteData (1)" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="RestAssuredDemoProject" />
       <extension name="coverage">
@@ -190,7 +214,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AddAndDeleteData" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="AddAndDeleteData.AddAndDeletePlace (1)" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="RestAssuredDemoProject" />
       <extension name="coverage">
         <pattern>
@@ -200,6 +224,26 @@
       </extension>
       <option name="PACKAGE_NAME" value="demo" />
       <option name="MAIN_CLASS_NAME" value="demo.AddAndDeleteData" />
+      <option name="METHOD_NAME" value="AddAndDeletePlace" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AddAndDeleteData.AddAndDeletePlace (2)" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="RestAssuredDemoProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="demo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="demo" />
+      <option name="MAIN_CLASS_NAME" value="demo.AddAndDeleteData" />
+      <option name="METHOD_NAME" value="AddAndDeletePlace" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
@@ -224,23 +268,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="/Users/singh2_rajiv/Automation/RestAssured/RestAssuredDemoProject/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="RestAssuredDemoProject" />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/testng.xml" />
-      <option name="TEST_OBJECT" value="SUITE" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.AddAndDeleteData.AddAndDeletePlace" />
+        <item itemvalue="TestNG.AddAndDeleteData.AddAndDeletePlace (2)" />
+        <item itemvalue="TestNG.AddAndDeleteData.AddAndDeletePlace (1)" />
         <item itemvalue="TestNG.AddAndDeleteData (2)" />
         <item itemvalue="TestNG.AddAndDeleteData (1)" />
-        <item itemvalue="TestNG.AddAndDeleteData.AddAndDeletePlace" />
-        <item itemvalue="TestNG./Users/singh2_rajiv/Automation/RestAssured/RestAssuredDemoProject/testng.xml" />
-        <item itemvalue="TestNG.AddAndDeleteData" />
       </list>
     </recent_temporary>
   </component>
@@ -258,15 +292,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="AddAndDeleteData_AddAndDeletePlace - 2019.09.01 at 16h 26m 36s.xml">
-      <configuration name="AddAndDeleteData.AddAndDeletePlace" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="AddAndDeleteData_AddAndDeletePlace - 2019.09.01 at 16h 27m 57s.xml">
-      <configuration name="AddAndDeleteData.AddAndDeletePlace" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="AddAndDeleteData_AddAndDeletePlace - 2019.09.01 at 16h 28m 13s.xml">
-      <configuration name="AddAndDeleteData.AddAndDeletePlace" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="_Users_singh2_rajiv_Automation_RestAssured_RestAssuredDemoProject_testng_xml - 2019.09.01 at 16h 28m 50s.xml">
       <configuration name="/Users/singh2_rajiv/Automation/RestAssured/RestAssuredDemoProject/testng.xml" configurationId="TestNG" />
     </history-entry>
@@ -288,6 +313,15 @@
     <history-entry file="AddAndDeleteData_(1) - 2019.09.02 at 11h 13m 36s.xml">
       <configuration name="AddAndDeleteData (1)" configurationId="TestNG" />
     </history-entry>
+    <history-entry file="AddAndDeleteData_(2) - 2019.09.02 at 11h 13m 54s.xml">
+      <configuration name="AddAndDeleteData (2)" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="AddAndDeleteData_AddAndDeletePlace_(1) - 2019.09.02 at 11h 52m 08s.xml">
+      <configuration name="AddAndDeleteData.AddAndDeletePlace (1)" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="AddAndDeleteData_AddAndDeletePlace_(2) - 2019.09.02 at 11h 54m 53s.xml">
+      <configuration name="AddAndDeleteData.AddAndDeletePlace (2)" configurationId="TestNG" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="388" y="23" width="1291" height="947" extended-state="0" />
@@ -298,7 +332,7 @@
       <window_info id="UI Designer" />
       <window_info id="Capture Tool" />
       <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24979983" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24979983" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Version Control" weight="0.32982457" />
       <window_info anchor="bottom" id="GraphQL" weight="0.32982457" />
@@ -307,7 +341,7 @@
       <window_info anchor="bottom" id="Messages" weight="0.32982457" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.35438597" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.35438597" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3988304" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -352,15 +386,29 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Files/env.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="28" lean-forward="true" selection-start-column="28" selection-end-column="28" />
+        <state relative-caret-position="15">
+          <caret line="1" column="16" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Files/Resources.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="18" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Files/PayLoad.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="17" selection-start-line="20" selection-start-column="17" selection-end-line="20" selection-end-column="17" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/demo/AddAndDeleteData.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="149">
-          <caret line="23" column="116" selection-start-line="23" selection-start-column="116" selection-end-line="23" selection-end-column="116" />
+        <state relative-caret-position="117">
+          <caret line="33" column="8" selection-start-line="33" selection-start-column="8" selection-end-line="33" selection-end-column="8" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

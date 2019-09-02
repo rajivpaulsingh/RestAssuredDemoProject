@@ -14,6 +14,9 @@ import java.util.Properties;
 import static io.restassured.RestAssured.given;
 import static org.hamcrest.Matchers.equalTo;
 
+import Files.Resources;
+import Files.PayLoad;
+
 public class AddAndDeleteData {
 
     Properties prop = new Properties();
@@ -29,29 +32,15 @@ public class AddAndDeleteData {
     @Test
     public void AddAndDeletePlace() {
 
-        String b = "{\n" +
-                "    \"location\":{\n" +
-                "        \"lat\" : -38.383494,\n" +
-                "        \"lng\" : 33.427362\n" +
-                "    },\n" +
-                "    \"accuracy\":50,\n" +
-                "    \"name\":\"Frontline house\",\n" +
-                "    \"phone_number\":\"(+91) 983 893 3937\",\n" +
-                "    \"address\" : \"29, side layout, cohen 09\",\n" +
-                "    \"types\": [\"shoe park\",\"shop\"],\n" +
-                "    \"website\" : \"http://google.com\",\n" +
-                "    \"language\" : \"French-IN\"\n" +
-                "}";
-
         //Task 1 - Grab the response
         RestAssured.baseURI = prop.getProperty("HOST");;
 
         Response res = given().
-                queryParam("key", "qaclick123").
-                body(b).
+                queryParam("key", prop.getProperty("KEY")).
+                body(PayLoad.getPostData()).
 
         when().
-                post("maps/api/place/add/json").
+                post(Resources.placePostData()).
 
         then().
                 assertThat().statusCode(200).and().contentType(ContentType.JSON).
