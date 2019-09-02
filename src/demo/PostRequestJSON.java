@@ -8,7 +8,7 @@ import static io.restassured.RestAssured.given;
 import static org.hamcrest.Matchers.equalTo;
 
 
-public class PostRequest {
+public class PostRequestJSON {
 
     @Test
     public void postData() {

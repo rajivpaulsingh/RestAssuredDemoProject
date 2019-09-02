@@ -2,13 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7ef043fd-27db-4709-8c79-156bc45d6411" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Files/PayLoad.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Files/Resources.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/demo/PostRequestXML.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/files/postData.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/RestAssuredDemoProject/Files/env.properties" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/RestAssuredDemoProject/Files/env.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/RestAssuredDemoProject/demo/AddAndDeleteData.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/RestAssuredDemoProject/demo/AddAndDeleteData.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Files/env.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/Files/env.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/RestAssuredDemoProject/demo/PostRequest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Files/PayLoad.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/files/PayLoad.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Files/Resources.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/files/Resources.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Files/env.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/files/env.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/demo/AddAndDeleteData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/demo/AddAndDeleteData.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/demo/PostRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/demo/PostRequestJSON.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testng.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -22,7 +25,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/demo/GetRequest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-290">
+            <state relative-caret-position="30">
               <caret line="12" column="23" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="23" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -41,7 +44,7 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/demo/PostRequest.java">
+        <entry file="file://$PROJECT_DIR$/src/demo/PostRequestJSON.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="540">
               <caret line="36" column="15" selection-start-line="36" selection-start-column="15" selection-end-line="36" selection-end-column="15" />
@@ -52,11 +55,23 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/demo/AddAndDeleteData.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="117">
-              <caret line="33" column="8" selection-start-line="33" selection-start-column="8" selection-end-line="33" selection-end-column="8" />
+            <state relative-caret-position="405">
+              <caret line="26" column="141" selection-start-line="26" selection-start-column="51" selection-end-line="26" selection-end-column="141" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/demo/PostRequestXML.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="162">
+              <caret line="22" column="8" selection-start-line="22" selection-start-column="8" selection-end-line="22" selection-end-column="8" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -65,7 +80,16 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Files/PayLoad.java">
+        <entry file="file://$PROJECT_DIR$/src/files/postData.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/files/PayLoad.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="300">
               <caret line="20" column="17" selection-start-line="20" selection-start-column="17" selection-end-line="20" selection-end-column="17" />
@@ -74,7 +98,7 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Files/Resources.java">
+        <entry file="file://$PROJECT_DIR$/src/files/Resources.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="60">
               <caret line="4" column="18" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="18" />
@@ -83,7 +107,7 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Files/env.properties">
+        <entry file="file://$PROJECT_DIR$/src/files/env.properties">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="15">
               <caret line="1" column="16" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="16" />
@@ -115,6 +139,8 @@
         <option value="$PROJECT_DIR$/src/Files/Resources.java" />
         <option value="$PROJECT_DIR$/src/Files/PayLoad.java" />
         <option value="$PROJECT_DIR$/src/demo/AddAndDeleteData.java" />
+        <option value="$PROJECT_DIR$/src/files/postData.xml" />
+        <option value="$PROJECT_DIR$/src/demo/PostRequestXML.java" />
       </list>
     </option>
   </component>
@@ -153,7 +179,7 @@
               <item name="RestAssuredDemoProject" type="b2602c69:ProjectViewProjectNode" />
               <item name="RestAssuredDemoProject" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Files" type="462c0819:PsiDirectoryNode" />
+              <item name="files" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -163,11 +189,16 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1567450714142" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1567452165755" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="demo" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -181,8 +212,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.AddAndDeleteData.AddAndDeletePlace">
-    <configuration name="AddAndDeleteData (1)" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.PostRequestXML.postData">
+    <configuration name="AddAndDeleteData" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="RestAssuredDemoProject" />
       <extension name="coverage">
         <pattern>
@@ -198,41 +229,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AddAndDeleteData (2)" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="RestAssuredDemoProject" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="demo.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="demo" />
-      <option name="MAIN_CLASS_NAME" value="demo.AddAndDeleteData" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="AddAndDeleteData.AddAndDeletePlace (1)" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="RestAssuredDemoProject" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="demo.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="demo" />
-      <option name="MAIN_CLASS_NAME" value="demo.AddAndDeleteData" />
-      <option name="METHOD_NAME" value="AddAndDeletePlace" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="AddAndDeleteData.AddAndDeletePlace (2)" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="AddAndDeleteData.AddAndDeletePlace" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="RestAssuredDemoProject" />
       <extension name="coverage">
         <pattern>
@@ -268,13 +265,49 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="AddAndDeleteData.AddAndDeletePlace" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="RestAssuredDemoProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="demo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="demo" />
+      <option name="MAIN_CLASS_NAME" value="demo.AddAndDeleteData" />
+      <option name="METHOD_NAME" value="AddAndDeletePlace" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PostRequestXML.postData" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="RestAssuredDemoProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="demo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="demo" />
+      <option name="MAIN_CLASS_NAME" value="demo.PostRequestXML" />
+      <option name="METHOD_NAME" value="postData" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.PostRequestXML.postData" />
         <item itemvalue="TestNG.AddAndDeleteData.AddAndDeletePlace" />
         <item itemvalue="TestNG.AddAndDeleteData.AddAndDeletePlace (2)" />
         <item itemvalue="TestNG.AddAndDeleteData.AddAndDeletePlace (1)" />
         <item itemvalue="TestNG.AddAndDeleteData (2)" />
-        <item itemvalue="TestNG.AddAndDeleteData (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -292,18 +325,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="_Users_singh2_rajiv_Automation_RestAssured_RestAssuredDemoProject_testng_xml - 2019.09.01 at 16h 28m 50s.xml">
-      <configuration name="/Users/singh2_rajiv/Automation/RestAssured/RestAssuredDemoProject/testng.xml" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="_Users_singh2_rajiv_Automation_RestAssured_RestAssuredDemoProject_testng_xml - 2019.09.01 at 16h 29m 53s.xml">
-      <configuration name="/Users/singh2_rajiv/Automation/RestAssured/RestAssuredDemoProject/testng.xml" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="_Users_singh2_rajiv_Automation_RestAssured_RestAssuredDemoProject_testng_xml - 2019.09.01 at 16h 30m 05s.xml">
-      <configuration name="/Users/singh2_rajiv/Automation/RestAssured/RestAssuredDemoProject/testng.xml" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="_Users_singh2_rajiv_Automation_RestAssured_RestAssuredDemoProject_testng_xml - 2019.09.01 at 16h 31m 03s.xml">
-      <configuration name="/Users/singh2_rajiv/Automation/RestAssured/RestAssuredDemoProject/testng.xml" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="AddAndDeleteData_AddAndDeletePlace - 2019.09.02 at 11h 12m 24s.xml">
       <configuration name="AddAndDeleteData.AddAndDeletePlace" configurationId="TestNG" />
     </history-entry>
@@ -322,6 +343,18 @@
     <history-entry file="AddAndDeleteData_AddAndDeletePlace_(2) - 2019.09.02 at 11h 54m 53s.xml">
       <configuration name="AddAndDeleteData.AddAndDeletePlace (2)" configurationId="TestNG" />
     </history-entry>
+    <history-entry file="AddAndDeleteData_AddAndDeletePlace - 2019.09.02 at 11h 57m 28s.xml">
+      <configuration name="AddAndDeleteData.AddAndDeletePlace" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="PostRequestXML_postData - 2019.09.02 at 12h 02m 02s.xml">
+      <configuration name="PostRequestXML.postData" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="PostRequestXML_postData - 2019.09.02 at 12h 04m 11s.xml">
+      <configuration name="PostRequestXML.postData" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="PostRequestXML_postData - 2019.09.02 at 12h 21m 23s.xml">
+      <configuration name="PostRequestXML.postData" configurationId="TestNG" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="388" y="23" width="1291" height="947" extended-state="0" />
@@ -332,7 +365,7 @@
       <window_info id="UI Designer" />
       <window_info id="Capture Tool" />
       <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24979983" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24979983" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Version Control" weight="0.32982457" />
       <window_info anchor="bottom" id="GraphQL" weight="0.32982457" />
@@ -340,8 +373,8 @@
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Messages" weight="0.32982457" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.35438597" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32982457" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.35438597" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3988304" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -364,7 +397,38 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/demo/PostRequest.java">
+    <entry file="file://$PROJECT_DIR$/src/files/env.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="16" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/files/PayLoad.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="17" selection-start-line="20" selection-start-column="17" selection-end-line="20" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/files/Resources.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="18" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/demo/GetRequest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="12" column="23" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/demo/PostRequestJSON.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="540">
           <caret line="36" column="15" selection-start-line="36" selection-start-column="15" selection-end-line="36" selection-end-column="15" />
@@ -374,41 +438,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/demo/GetRequest.java">
+    <entry file="file://$PROJECT_DIR$/src/demo/AddAndDeleteData.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-290">
-          <caret line="12" column="23" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="23" />
+        <state relative-caret-position="405">
+          <caret line="26" column="141" selection-start-line="26" selection-start-column="51" selection-end-line="26" selection-end-column="141" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Files/env.properties">
+    <entry file="file://$PROJECT_DIR$/src/files/postData.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="16" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="16" />
+        <state relative-caret-position="225">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Files/Resources.java">
+    <entry file="file://$PROJECT_DIR$/src/demo/PostRequestXML.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="18" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Files/PayLoad.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" column="17" selection-start-line="20" selection-start-column="17" selection-end-line="20" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/demo/AddAndDeleteData.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="117">
-          <caret line="33" column="8" selection-start-line="33" selection-start-column="8" selection-end-line="33" selection-end-column="8" />
+        <state relative-caret-position="162">
+          <caret line="22" column="8" selection-start-line="22" selection-start-column="8" selection-end-line="22" selection-end-column="8" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

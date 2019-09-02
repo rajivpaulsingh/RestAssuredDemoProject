@@ -1,4 +1,4 @@
-package Files;
+package files;
 
 public class Resources {
 

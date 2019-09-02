@@ -13,7 +13,7 @@
                 <include name="getData"/>
             </methods>
         </class>
-        <class name="demo.PostRequest">
+        <class name="demo.PostRequestJSON">
             <methods>
                 <include name="postData"/>
             </methods>

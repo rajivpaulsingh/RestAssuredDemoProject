@@ -14,8 +14,8 @@ import java.util.Properties;
 import static io.restassured.RestAssured.given;
 import static org.hamcrest.Matchers.equalTo;
 
-import Files.Resources;
-import Files.PayLoad;
+import files.Resources;
+import files.PayLoad;
 
 public class AddAndDeleteData {
 
@@ -24,7 +24,7 @@ public class AddAndDeleteData {
     @BeforeTest
     public void getData() throws IOException {
 
-        FileInputStream fis = new FileInputStream("/Users/singh2_rajiv/Automation/RestAssured/RestAssuredDemoProject/src/Files/env.properties");
+        FileInputStream fis = new FileInputStream("/Users/singh2_rajiv/Automation/RestAssured/RestAssuredDemoProject/src/files/env.properties");
         prop.load(fis);
         //prop.getProperty("HOST");
     }
