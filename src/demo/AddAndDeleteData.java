@@ -4,12 +4,27 @@ import io.restassured.RestAssured;
 import io.restassured.http.ContentType;
 import io.restassured.path.json.JsonPath;
 import io.restassured.response.Response;
+import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
+
+import java.io.FileInputStream;
+import java.io.IOException;
+import java.util.Properties;
 
 import static io.restassured.RestAssured.given;
 import static org.hamcrest.Matchers.equalTo;
 
 public class AddAndDeleteData {
+
+    Properties prop = new Properties();
+
+    @BeforeTest
+    public void getData() throws IOException {
+
+        FileInputStream fis = new FileInputStream("/Users/singh2_rajiv/Automation/RestAssured/RestAssuredDemoProject/src/Files/env.properties");
+        prop.load(fis);
+        //prop.getProperty("HOST");
+    }
 
     @Test
     public void AddAndDeletePlace() {
@@ -29,7 +44,7 @@ public class AddAndDeleteData {
                 "}";
 
         //Task 1 - Grab the response
-        RestAssured.baseURI = "http://216.10.245.166";
+        RestAssured.baseURI = prop.getProperty("HOST");;
 
         Response res = given().
                 queryParam("key", "qaclick123").
