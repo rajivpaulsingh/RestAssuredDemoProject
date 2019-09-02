@@ -2,6 +2,8 @@ package demo;
 
 import io.restassured.RestAssured;
 import io.restassured.http.ContentType;
+import io.restassured.path.xml.XmlPath;
+import io.restassured.response.Response;
 import org.testng.annotations.Test;
 
 import java.io.IOException;
@@ -20,7 +22,7 @@ public class PostRequestXML {
         String postData = GenerateStringFromResource("/Users/singh2_rajiv/Automation/RestAssured/RestAssuredDemoProject/src/files/postData.xml");
         RestAssured.baseURI = "http://216.10.245.166";
 
-        given().
+        Response res = given().
                 queryParam("key", "qaclick123").
                 body(postData).
 
@@ -29,8 +31,12 @@ public class PostRequestXML {
 
         then().
                 assertThat().statusCode(200).and().contentType(ContentType.XML).
-                body("status", equalTo("OK"));
+        extract().response();
 
+        String response = res.asString();
+        System.out.println(response);
+        XmlPath x = new XmlPath(response);
+        System.out.println(x.get("response.place_id"));
     }
 
     public static String GenerateStringFromResource(String path) throws IOException {
