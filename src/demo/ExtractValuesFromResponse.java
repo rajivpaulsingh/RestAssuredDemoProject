@@ -23,7 +23,7 @@ public class ExtractValuesFromResponse {
                 param("radius", "1500").
                 param("type", "restaurant").
                 param("keyword", "cruise").
-                param("key", "AIzaSyDIQgAh0B4p0SdyYkyW8tlG-y0yJMfss5Y").
+                param("key", "AIzaSyDIQgAh0B4p0SdyYkyW8tlG-y0yJMfss5Y").log().all().
 
         when().
                 get("maps/api/place/nearbysearch/json").

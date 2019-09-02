@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7ef043fd-27db-4709-8c79-156bc45d6411" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/demo/ExtractValuesFromResponse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/demo/ExtractValuesFromResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/demo/ExtractValuesFromResponse.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -50,8 +49,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/demo/ExtractValuesFromResponse.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="190">
-              <caret line="31" column="81" lean-forward="true" selection-start-line="31" selection-start-column="81" selection-end-line="31" selection-end-column="81" />
+            <state relative-caret-position="385">
+              <caret line="44" column="5" lean-forward="true" selection-start-line="44" selection-start-column="5" selection-end-line="44" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -149,7 +148,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1567458584643" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1567459334120" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -172,7 +171,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.ExtractValuesFromResponse.getData">
+  <component name="RunManager" selected="TestNG.ExtractValuesFromResponse.getData (1)">
     <configuration name="ExtractValuesFromResponse" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="RestAssuredDemoProject" />
       <extension name="coverage">
@@ -183,6 +182,24 @@
       </extension>
       <option name="PACKAGE_NAME" value="demo" />
       <option name="MAIN_CLASS_NAME" value="demo.ExtractValuesFromResponse" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ExtractValuesFromResponse.getData (1)" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="RestAssuredDemoProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="demo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="demo" />
+      <option name="MAIN_CLASS_NAME" value="demo.ExtractValuesFromResponse" />
+      <option name="METHOD_NAME" value="getData" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
@@ -241,31 +258,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PostRequestXML.postData" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="RestAssuredDemoProject" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="demo.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="demo" />
-      <option name="MAIN_CLASS_NAME" value="demo.PostRequestXML" />
-      <option name="METHOD_NAME" value="postData" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.ExtractValuesFromResponse.getData (1)" />
         <item itemvalue="TestNG.ExtractValuesFromResponse.getData" />
         <item itemvalue="TestNG.ExtractValuesFromResponse" />
         <item itemvalue="TestNG.GetRequest.getData" />
         <item itemvalue="TestNG.PostRequestXML" />
-        <item itemvalue="TestNG.PostRequestXML.postData" />
       </list>
     </recent_temporary>
   </component>
@@ -283,9 +282,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="PostRequestXML_postData - 2019.09.02 at 12h 24m 38s.xml">
-      <configuration name="PostRequestXML.postData" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="PostRequestXML_postData - 2019.09.02 at 12h 26m 32s.xml">
       <configuration name="PostRequestXML.postData" configurationId="TestNG" />
     </history-entry>
@@ -313,6 +309,9 @@
     <history-entry file="ExtractValuesFromResponse_getData - 2019.09.02 at 14h 07m 33s.xml">
       <configuration name="ExtractValuesFromResponse.getData" configurationId="TestNG" />
     </history-entry>
+    <history-entry file="ExtractValuesFromResponse_getData_(1) - 2019.09.02 at 14h 22m 07s.xml">
+      <configuration name="ExtractValuesFromResponse.getData (1)" configurationId="TestNG" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="388" y="23" width="1291" height="947" extended-state="0" />
@@ -323,7 +322,7 @@
       <window_info id="UI Designer" />
       <window_info id="Capture Tool" />
       <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24979983" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24979983" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Version Control" weight="0.32982457" />
       <window_info anchor="bottom" id="GraphQL" weight="0.32982457" />
@@ -332,7 +331,7 @@
       <window_info anchor="bottom" id="Messages" weight="0.32982457" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32982457" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.35438597" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.35438597" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3988304" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -432,8 +431,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/demo/ExtractValuesFromResponse.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="31" column="81" lean-forward="true" selection-start-line="31" selection-start-column="81" selection-end-line="31" selection-end-column="81" />
+        <state relative-caret-position="385">
+          <caret line="44" column="5" lean-forward="true" selection-start-line="44" selection-start-column="5" selection-end-line="44" selection-end-column="5" />
         </state>
       </provider>
     </entry>
