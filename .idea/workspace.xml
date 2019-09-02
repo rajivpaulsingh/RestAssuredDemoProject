@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7ef043fd-27db-4709-8c79-156bc45d6411" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/files/ReusableMethods.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/demo/ExtractValuesFromResponse.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/demo/PostRequestXML.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/demo/PostRequestXML.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -24,7 +23,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/demo/PostRequestXML.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="400">
@@ -32,6 +31,27 @@
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/demo/GetRequest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-5">
+              <caret line="31" column="10" lean-forward="true" selection-start-line="31" selection-start-column="10" selection-end-line="31" selection-end-column="10" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/demo/ExtractValuesFromResponse.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="190">
+              <caret line="31" column="81" lean-forward="true" selection-start-line="31" selection-start-column="81" selection-end-line="31" selection-end-column="81" />
             </state>
           </provider>
         </entry>
@@ -57,6 +77,11 @@
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <replaceStrings>
+      <replace />
+    </replaceStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -75,6 +100,7 @@
         <option value="$PROJECT_DIR$/src/files/postData.xml" />
         <option value="$PROJECT_DIR$/src/files/ReusableMethods.java" />
         <option value="$PROJECT_DIR$/src/demo/PostRequestXML.java" />
+        <option value="$PROJECT_DIR$/src/demo/ExtractValuesFromResponse.java" />
       </list>
     </option>
   </component>
@@ -123,7 +149,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1567453233475" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1567458584643" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -146,8 +172,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.PostRequestXML">
-    <configuration name="AddAndDeleteData.AddAndDeletePlace" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.ExtractValuesFromResponse.getData">
+    <configuration name="ExtractValuesFromResponse" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="RestAssuredDemoProject" />
       <extension name="coverage">
         <pattern>
@@ -156,8 +182,24 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="demo" />
-      <option name="MAIN_CLASS_NAME" value="demo.AddAndDeleteData" />
-      <option name="METHOD_NAME" value="AddAndDeletePlace" />
+      <option name="MAIN_CLASS_NAME" value="demo.ExtractValuesFromResponse" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ExtractValuesFromResponse.getData" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="RestAssuredDemoProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="demo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="demo" />
+      <option name="MAIN_CLASS_NAME" value="demo.ExtractValuesFromResponse" />
+      <option name="METHOD_NAME" value="getData" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -165,7 +207,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AddAndDeleteData.AddAndDeletePlace" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="GetRequest.getData" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="RestAssuredDemoProject" />
       <extension name="coverage">
         <pattern>
@@ -174,26 +216,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="demo" />
-      <option name="MAIN_CLASS_NAME" value="demo.AddAndDeleteData" />
-      <option name="METHOD_NAME" value="AddAndDeletePlace" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="AddAndDeleteData.AddAndDeletePlace" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="RestAssuredDemoProject" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="demo.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="demo" />
-      <option name="MAIN_CLASS_NAME" value="demo.AddAndDeleteData" />
-      <option name="METHOD_NAME" value="AddAndDeletePlace" />
+      <option name="MAIN_CLASS_NAME" value="demo.GetRequest" />
+      <option name="METHOD_NAME" value="getData" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -237,11 +261,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.ExtractValuesFromResponse.getData" />
+        <item itemvalue="TestNG.ExtractValuesFromResponse" />
+        <item itemvalue="TestNG.GetRequest.getData" />
         <item itemvalue="TestNG.PostRequestXML" />
         <item itemvalue="TestNG.PostRequestXML.postData" />
-        <item itemvalue="TestNG.AddAndDeleteData.AddAndDeletePlace" />
-        <item itemvalue="TestNG.AddAndDeleteData.AddAndDeletePlace (2)" />
-        <item itemvalue="TestNG.AddAndDeleteData.AddAndDeletePlace (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -259,18 +283,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="AddAndDeleteData_AddAndDeletePlace - 2019.09.02 at 11h 57m 28s.xml">
-      <configuration name="AddAndDeleteData.AddAndDeletePlace" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="PostRequestXML_postData - 2019.09.02 at 12h 02m 02s.xml">
-      <configuration name="PostRequestXML.postData" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="PostRequestXML_postData - 2019.09.02 at 12h 04m 11s.xml">
-      <configuration name="PostRequestXML.postData" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="PostRequestXML_postData - 2019.09.02 at 12h 21m 23s.xml">
-      <configuration name="PostRequestXML.postData" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="PostRequestXML_postData - 2019.09.02 at 12h 24m 38s.xml">
       <configuration name="PostRequestXML.postData" configurationId="TestNG" />
     </history-entry>
@@ -288,6 +300,18 @@
     </history-entry>
     <history-entry file="PostRequestXML_postData - 2019.09.02 at 12h 34m 44s.xml">
       <configuration name="PostRequestXML.postData" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="PostRequestXML - 2019.09.02 at 12h 40m 39s.xml">
+      <configuration name="PostRequestXML" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="GetRequest_getData - 2019.09.02 at 13h 30m 10s.xml">
+      <configuration name="GetRequest.getData" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="ExtractValuesFromResponse_getData - 2019.09.02 at 13h 34m 42s.xml">
+      <configuration name="ExtractValuesFromResponse.getData" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="ExtractValuesFromResponse_getData - 2019.09.02 at 14h 07m 33s.xml">
+      <configuration name="ExtractValuesFromResponse.getData" configurationId="TestNG" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -338,16 +362,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
           <caret line="22" column="8" selection-start-line="22" selection-start-column="8" selection-end-line="22" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/demo/GetRequest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-277">
-          <caret line="12" column="23" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="23" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -403,6 +417,23 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/demo/GetRequest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-5">
+          <caret line="31" column="10" lean-forward="true" selection-start-line="31" selection-start-column="10" selection-end-line="31" selection-end-column="10" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/demo/ExtractValuesFromResponse.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="31" column="81" lean-forward="true" selection-start-line="31" selection-start-column="81" selection-end-line="31" selection-end-column="81" />
         </state>
       </provider>
     </entry>
