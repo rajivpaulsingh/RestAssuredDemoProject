@@ -36,7 +36,7 @@ public class TwitterAPIExample {
         System.out.println((String)js.get("id"));
 
     }
-    
+
     @Test
     public void createTweet()
     {
