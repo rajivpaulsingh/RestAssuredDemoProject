@@ -60,11 +60,9 @@ public class AddAndDeleteData {
         //Task 3 - Use this placeID in the delete request
         given().
                 queryParam("key", "qaclick123").
-                body("{\n" +
-                        "    \"place_id\":\"" + placeID + "\"         \n" +
-                        "}").
+                body(PayLoad.getDeleteData(placeID)).
         when().
-                post("maps/api/place/delete/json").
+                post(Resources.placeDeleteData()).
         then().
                 assertThat().statusCode(200).and().contentType(ContentType.JSON).
                 body("status", equalTo("OK"));

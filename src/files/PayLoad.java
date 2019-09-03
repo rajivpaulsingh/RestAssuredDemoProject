@@ -21,6 +21,14 @@ public class PayLoad {
         return b;
     }
 
+    public static String getDeleteData(String placeID) {
+
+        String d = "{\n" +
+                "    \"place_id\":\"" + placeID + "\" \n" +
+                "}";
+        return d;
+    }
+
     public static String addBook(String isbn, String aisle) {
 
         String book = "{\n" +
@@ -33,10 +41,10 @@ public class PayLoad {
         return book;
     }
 
-    public static String deleteBook(String isbnaisel) {
+    public static String deleteBook(String isbnaisle) {
 
         String book = "{\n" +
-                "\"ID\" : \"" + isbnaisel + "\"\n" +
+                "\"ID\" : \"" + isbnaisle + "\"\n" +
                 "}";
         return book;
     }
