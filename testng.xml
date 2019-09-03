@@ -2,22 +2,37 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="All Test Suite">
     <test verbose="2" preserve-order="true" name="/Users/singh2_rajiv/Automation/RestAssured/RestAssuredDemoProject">
-        \<classes>
-        <class name="demo.AddAndDeleteData">
-            <methods>
-                <include name="AddAndDeletePlace"/>
-            </methods>
-        </class>
-        <class name="demo.GetRequest">
-            <methods>
-                <include name="getData"/>
-            </methods>
-        </class>
-        <class name="demo.PostRequestJSON">
-            <methods>
-                <include name="postData"/>
-            </methods>
-        </class>
-    </classes>
+        <classes>
+            <class name="demo.AddAndDeleteData">
+                <methods>
+                    <include name="AddAndDeletePlace"/>
+                </methods>
+            </class>
+            <class name="demo.DynamicJSON">
+                <methods>
+                    <include name="addAndDeleteBook"/>
+                </methods>
+            </class>
+            <class name="demo.ExtractValuesFromResponse">
+                <methods>
+                    <include name="getData"/>
+                </methods>
+            </class>
+            <class name="demo.GetRequest">
+                <methods>
+                    <include name="getData"/>
+                </methods>
+            </class>
+            <class name="demo.PostRequestJSON">
+                <methods>
+                    <include name="postData"/>
+                </methods>
+            </class>
+            <class name="demo.PostRequestXML">
+                <methods>
+                    <include name="postData"/>
+                </methods>
+            </class>
+        </classes>
     </test>
 </suite>

@@ -10,7 +10,6 @@ public class ReusableMethods {
 
         String response = res.asString();
         XmlPath x = new XmlPath(response);
-
         return x;
     }
 
