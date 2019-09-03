@@ -15,10 +15,11 @@ import static io.restassured.RestAssured.given;
 public class DynamicJSON {
 
     @Test(dataProvider = "BooksData")
-    public void addBook(String isbn, String aisle) {
+    public void addAndDeleteBook(String isbn, String aisle) {
 
         RestAssured.baseURI = "http://216.10.245.166";
 
+        //Add the book
         Response res = given().
                 header("Content-Type", "application/json").
                 body(PayLoad.addBook(isbn, aisle)).
@@ -30,16 +31,27 @@ public class DynamicJSON {
 
         JsonPath js = ReusableMethods.RawToJSON(res);
         String id = js.get("ID");
-        System.out.println(id);
+        System.out.println("Added the book: " + id);
+
+        //Delete the book
+        given().
+                header("Content-Type", "application/json").
+                body(PayLoad.deleteBook(id)).
+        when().
+                post("Library/DeleteBook.php").
+        then().
+                assertThat().statusCode(200).and().contentType(ContentType.JSON);
+        System.out.println("Deleted the book: " + id);
+
     }
 
     @DataProvider(name = "BooksData")
     public Object[][] getData() {
 
         return new Object[][] {
-                {"aaaa", "111"},
-                {"bbbb", "222"},
-                {"cccc", "333"}
+                {"aaaaaa", "1111"},
+                {"bbbbbb", "2222"},
+                {"cccccc", "3333"}
         };
     }
 

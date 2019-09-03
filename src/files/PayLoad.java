@@ -33,4 +33,12 @@ public class PayLoad {
         return book;
     }
 
+    public static String deleteBook(String isbnaisel) {
+
+        String book = "{\n" +
+                "\"ID\" : \"" + isbnaisel + "\"\n" +
+                "}";
+        return book;
+    }
+
 }
